@@ -4,6 +4,7 @@ import Stack from '@mui/material/Stack';
 import { styled } from '@mui/material/styles';
 import SearchBar from './Search';
 import { Avatar, Box, Button, Icon, Typography } from '@mui/material';
+import Nav from './Navbar';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: '#fff',
@@ -207,7 +208,10 @@ export default function MainPage() {
 
 
         </Box>
+
+        
       </Stack>
+      <Nav/>
     </Stack>
   );
 }
